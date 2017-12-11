@@ -1,0 +1,16 @@
+body {
+  margin: 0 auto;
+  width: 1000px;
+  font-family: helvetica;
+  color: #4a4a4a;
+  font-size: 40px;
+}
+
+p {
+  font-size: 30px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+}
