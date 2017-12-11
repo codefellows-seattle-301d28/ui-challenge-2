@@ -1,17 +1,13 @@
 body {
   margin: 0 auto;
-  width: 800px;
+  width: 1000px;
   font-family: helvetica;
   color: #4a4a4a;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 p {
-  font-size: 20px;
-}
-
-h1 {
-  text-decoration: underline;
+  font-size: 30px;
 }
 
 label {
