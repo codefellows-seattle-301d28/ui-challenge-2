@@ -11,7 +11,7 @@
   <body>
     <h1>UI Challenge - Custom Form Elements</h1>
     <p id="note">NOTE: DO NOT attempt to directly style radio buttons, checkboxes, or the the custom select box - you'll need to use the provided sprite sheet and a series of custom JS methods to complete this challenge... don't worry if it's not perfect - styling custom form elements can be tricky and you'll need to use your best judgement at times!</p>
-    <div>
+    <div id="text-input">
       <label>text input</label>
       <input type="text" placeholder="placeholder text">
     </div>
@@ -20,14 +20,11 @@
       <input type="text" placeholder="placeholder text">
       <p>please enter a valid username</p>
     </div>
+
     <div id="select-box">
       <label>select box</label>
       <input type="text" placeholder="please select an option...">
       <div class="sprite-down-arrow"></div>
-    </div>
-    <div id="select-box-open">
-      <label>select box - open</label>
-      <input type="text" placeholder="">
       <div class="sprite-up-arrow"></div>
       <div id="selections">
         <p class="light">option 1</p>
@@ -39,16 +36,20 @@
     </div>
     <div id="check-box">
       <label>checkbox</label>
-      <div class="sprite-checkbox"></div>
+      <div class="sprite-unchecked"></div>
+      <div class="sprite-checked"></div>
     </div>
     <div id="radio">
       <label>radio</label>
-      <div class="sprite-radio"></div>
+      <div class="sprite-radio-unselected"></div>
+      <div class="sprite-radio-selected"></div>
     </div>
     <div id="buttons">
       <label>buttons</label>
       <input id="grey" type="button" value="submit">
       <input id="black" type="button" value="submit">
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>

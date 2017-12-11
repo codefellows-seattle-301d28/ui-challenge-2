@@ -1,4 +1,4 @@
-.sprite-down-arrow,  .sprite-up-arrow, .sprite-checkbox, .sprite-radio {
+.sprite-down-arrow,  .sprite-up-arrow, .sprite-unchecked, .sprite-checked, .sprite-radio-unselected, .sprite-radio-selected {
   background: url('../sprites/form-elements-sprite.png') no-repeat;
 }
 
@@ -91,17 +91,31 @@ input {
   margin-bottom: 50px;
 }
 
-.sprite-checkbox {
+.sprite-unchecked {
   height: 200px;
-  width: 400px;
+  width: 200px;
   background-position: -150px;
   margin-bottom: 50px;
 }
 
-.sprite-radio {
+.sprite-checked {
   height: 200px;
-  width: 400px;
+  width: 200px;
+  background-position: -375px;
+  margin-bottom: 50px;
+}
+
+.sprite-radio-unselected {
+  height: 200px;
+  width: 200px;
   background-position: -580px;
+  margin-bottom: 50px;
+}
+
+.sprite-radio-selected {
+  height: 200px;
+  width: 200px;
+  background-position: -810px;
   margin-bottom: 50px;
 }
 
