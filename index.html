@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
-    <link rel="stylesheet" href="styles/module.css">
+    <link rel="stylesheet" href="styles/modules.css">
   </head>
   <body>
     <h1>UI Challenge - Custom Form Elements</h1>
-    <p>NOTE: DO NOT attempt to directly style radio buttons, checkboxes, or the the custom select box - you'll need to use the provided sprite sheet and a series of custom JS methods to complete this challenge... don't worry if it's not perfect - styling custom form elements can be tricky and you'll need to use your best judgement at times!</p>
-    <div id="text-input">
+    <p id="note">NOTE: DO NOT attempt to directly style radio buttons, checkboxes, or the the custom select box - you'll need to use the provided sprite sheet and a series of custom JS methods to complete this challenge... don't worry if it's not perfect - styling custom form elements can be tricky and you'll need to use your best judgement at times!</p>
+    <div>
       <label>text input</label>
       <input type="text" placeholder="placeholder text">
     </div>
@@ -23,10 +23,12 @@
     <div id="select-box">
       <label>select box</label>
       <input type="text" placeholder="please select an option...">
+      <div class="sprite-down-arrow"></div>
     </div>
     <div id="select-box-open">
       <label>select box - open</label>
       <input type="text" placeholder="">
+      <div class="sprite-up-arrow"></div>
       <div id="selections">
         <p class="light">option 1</p>
         <p class="dark">option 2</p>
@@ -37,9 +39,11 @@
     </div>
     <div id="check-box">
       <label>checkbox</label>
+      <div class="sprite-checkbox"></div>
     </div>
     <div id="radio">
       <label>radio</label>
+      <div class="sprite-radio"></div>
     </div>
     <div id="buttons">
       <label>buttons</label>
